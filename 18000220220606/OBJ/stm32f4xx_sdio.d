@@ -2,7 +2,7 @@
 ..\obj\stm32f4xx_sdio.o: ..\FWLIB\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h
 ..\obj\stm32f4xx_sdio.o: ..\USER\stm32f4xx.h
 ..\obj\stm32f4xx_sdio.o: ..\CORE\core_cm4.h
-..\obj\stm32f4xx_sdio.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\stm32f4xx_sdio.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\stm32f4xx_sdio.o: ..\FWLIB\CMSIS\Include\core_cmInstr.h
 ..\obj\stm32f4xx_sdio.o: ..\FWLIB\CMSIS\Include\core_cmFunc.h
 ..\obj\stm32f4xx_sdio.o: ..\CORE\core_cm4_simd.h

@@ -1,11 +1,11 @@
 ..\obj\main.o: main.c
 ..\obj\main.o: ..\UCOSIII\uCOS_CONFIG\includes.h
-..\obj\main.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdio.h
-..\obj\main.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\string.h
-..\obj\main.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\ctype.h
-..\obj\main.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdlib.h
-..\obj\main.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdarg.h
-..\obj\main.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\math.h
+..\obj\main.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\main.o: D:\keilaz\ARM\ARMCC\Bin\..\include\string.h
+..\obj\main.o: D:\keilaz\ARM\ARMCC\Bin\..\include\ctype.h
+..\obj\main.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\main.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdarg.h
+..\obj\main.o: D:\keilaz\ARM\ARMCC\Bin\..\include\math.h
 ..\obj\main.o: ..\UCOSIII\uCOS-III\Source\os.h
 ..\obj\main.o: ..\UCOSIII\uCOS_CONFIG\os_cfg.h
 ..\obj\main.o: ..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h
@@ -27,7 +27,7 @@
 ..\obj\main.o: ..\FWLIB\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h
 ..\obj\main.o: ..\USER\stm32f4xx.h
 ..\obj\main.o: ..\CORE\core_cm4.h
-..\obj\main.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\main.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\main.o: ..\FWLIB\CMSIS\Include\core_cmInstr.h
 ..\obj\main.o: ..\FWLIB\CMSIS\Include\core_cmFunc.h
 ..\obj\main.o: ..\CORE\core_cm4_simd.h
@@ -90,7 +90,7 @@
 ..\obj\main.o: ..\EMWIN\STemWin\inc\GUI_Private.h
 ..\obj\main.o: ..\EMWIN\STemWin\inc\LCD_Protected.h
 ..\obj\main.o: ..\EMWIN\STemWin\inc\GUI_Debug.h
-..\obj\main.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\main.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stddef.h
 ..\obj\main.o: ..\EMWIN\STemWin\inc\SCROLLBAR.h
 ..\obj\main.o: ..\EMWIN\STemWin\inc\WIDGET.h
 ..\obj\main.o: ..\EMWIN\STemWin\inc\CALENDAR.h
@@ -127,7 +127,7 @@
 ..\obj\main.o: ..\HARDWARE\CO2\AIR.h
 ..\obj\main.o: ..\HARDWARE\SRAM\sram.h
 ..\obj\main.o: ..\HARDWARE\WIFI\WIFI.h
-..\obj\main.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\main.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdbool.h
 ..\obj\main.o: ..\HARDWARE\TCP\TCP.h
 ..\obj\main.o: ..\HARDWARE\MQTT\MQTT.h
 ..\obj\main.o: ..\HARDWARE\DMA\DMA.h

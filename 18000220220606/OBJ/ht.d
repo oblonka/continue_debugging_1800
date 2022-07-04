@@ -2,7 +2,7 @@
 ..\obj\ht.o: ..\SYSTEM\sys\sys.h
 ..\obj\ht.o: ..\USER\stm32f4xx.h
 ..\obj\ht.o: ..\CORE\core_cm4.h
-..\obj\ht.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\ht.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\ht.o: ..\FWLIB\CMSIS\Include\core_cmInstr.h
 ..\obj\ht.o: ..\FWLIB\CMSIS\Include\core_cmFunc.h
 ..\obj\ht.o: ..\CORE\core_cm4_simd.h
@@ -38,8 +38,8 @@
 ..\obj\ht.o: ..\SYSTEM\delay\delay.h
 ..\obj\ht.o: ..\MALLOC\malloc.h
 ..\obj\ht.o: ..\HARDWARE\LCD\ILI93xx.h
-..\obj\ht.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\ht.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\ht.o: ..\HARDWARE\HT\HT.h
 ..\obj\ht.o: ..\HARDWARE\HT\HTIIC.h
 ..\obj\ht.o: ..\SYSTEM\usart\usart.h
-..\obj\ht.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\ht.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdio.h

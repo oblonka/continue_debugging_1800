@@ -2,7 +2,7 @@
 ..\obj\usmart_str.o: ..\USMART\usmart_str.h
 ..\obj\usmart_str.o: ..\USER\stm32f4xx.h
 ..\obj\usmart_str.o: ..\CORE\core_cm4.h
-..\obj\usmart_str.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\usmart_str.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\usmart_str.o: ..\FWLIB\CMSIS\Include\core_cmInstr.h
 ..\obj\usmart_str.o: ..\FWLIB\CMSIS\Include\core_cmFunc.h
 ..\obj\usmart_str.o: ..\CORE\core_cm4_simd.h

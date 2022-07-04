@@ -1,7 +1,7 @@
 ..\obj\cst148.o: ..\HARDWARE\TOUCH\cst148.c
 ..\obj\cst148.o: ..\HARDWARE\TOUCH\cst148.h
-..\obj\cst148.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdint.h
-..\obj\cst148.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\string.h
+..\obj\cst148.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\cst148.o: D:\keilaz\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\cst148.o: ..\SYSTEM\delay\delay.h
 ..\obj\cst148.o: ..\SYSTEM\sys\sys.h
 ..\obj\cst148.o: ..\USER\stm32f4xx.h
@@ -38,9 +38,9 @@
 ..\obj\cst148.o: ..\FWLIB\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h
 ..\obj\cst148.o: ..\FWLIB\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h
 ..\obj\cst148.o: ..\FWLIB\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h
-..\obj\cst148.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdlib.h
-..\obj\cst148.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\math.h
-..\obj\cst148.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\cst148.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\cst148.o: D:\keilaz\ARM\ARMCC\Bin\..\include\math.h
+..\obj\cst148.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\cst148.o: ..\HARDWARE\TOUCH\ctiic.h
 ..\obj\cst148.o: ..\HARDWARE\TOUCH\cst148.h
 ..\obj\cst148.o: ..\HARDWARE\LCD\ILI93XX.h

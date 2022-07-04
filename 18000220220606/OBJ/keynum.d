@@ -3,7 +3,7 @@
 ..\obj\keynum.o: ..\SYSTEM\sys\sys.h
 ..\obj\keynum.o: ..\USER\stm32f4xx.h
 ..\obj\keynum.o: ..\CORE\core_cm4.h
-..\obj\keynum.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\keynum.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\keynum.o: ..\FWLIB\CMSIS\Include\core_cmInstr.h
 ..\obj\keynum.o: ..\FWLIB\CMSIS\Include\core_cmFunc.h
 ..\obj\keynum.o: ..\CORE\core_cm4_simd.h
@@ -53,7 +53,7 @@
 ..\obj\keynum.o: ..\EMWIN\STemWin\inc\GUI_Private.h
 ..\obj\keynum.o: ..\EMWIN\STemWin\inc\LCD_Protected.h
 ..\obj\keynum.o: ..\EMWIN\STemWin\inc\GUI_Debug.h
-..\obj\keynum.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\keynum.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stddef.h
 ..\obj\keynum.o: ..\EMWIN\STemWin\inc\SCROLLBAR.h
 ..\obj\keynum.o: ..\EMWIN\STemWin\inc\WIDGET.h
 ..\obj\keynum.o: ..\EMWIN\STemWin\inc\CALENDAR.h
@@ -82,9 +82,9 @@
 ..\obj\keynum.o: ..\EMWIN\STemWin\inc\TREEVIEW.h
 ..\obj\keynum.o: ..\EMWIN\STemWin\inc\KNOB.h
 ..\obj\keynum.o: ..\HARDWARE\UIS\KEYa.h
-..\obj\keynum.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\keynum.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\keynum.o: ..\HARDWARE\UIS\KEYAA.h
 ..\obj\keynum.o: ..\HARDWARE\WIFICON\WIFIcon.h
 ..\obj\keynum.o: ..\EMWIN_DEMO\ButtonUse\ButtonUse.h
-..\obj\keynum.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdio.h
-..\obj\keynum.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\string.h
+..\obj\keynum.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\keynum.o: D:\keilaz\ARM\ARMCC\Bin\..\include\string.h

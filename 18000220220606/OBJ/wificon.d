@@ -2,7 +2,7 @@
 ..\obj\wificon.o: ..\SYSTEM\sys\sys.h
 ..\obj\wificon.o: ..\USER\stm32f4xx.h
 ..\obj\wificon.o: ..\CORE\core_cm4.h
-..\obj\wificon.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\wificon.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\wificon.o: ..\FWLIB\CMSIS\Include\core_cmInstr.h
 ..\obj\wificon.o: ..\FWLIB\CMSIS\Include\core_cmFunc.h
 ..\obj\wificon.o: ..\CORE\core_cm4_simd.h
@@ -37,14 +37,14 @@
 ..\obj\wificon.o: ..\FWLIB\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h
 ..\obj\wificon.o: ..\SYSTEM\delay\delay.h
 ..\obj\wificon.o: ..\SYSTEM\usart\usart.h
-..\obj\wificon.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\wificon.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\wificon.o: ..\HARDWARE\SRAM\sram.h
 ..\obj\wificon.o: ..\MALLOC\malloc.h
 ..\obj\wificon.o: ..\HARDWARE\LCD\ILI93xx.h
-..\obj\wificon.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\wificon.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\wificon.o: ..\HARDWARE\WIFI\WIFI.h
-..\obj\wificon.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\string.h
-..\obj\wificon.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\wificon.o: D:\keilaz\ARM\ARMCC\Bin\..\include\string.h
+..\obj\wificon.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdbool.h
 ..\obj\wificon.o: ..\HARDWARE\UIS\KEYa.h
 ..\obj\wificon.o: ..\EMWIN\STemWin\inc\GUI.h
 ..\obj\wificon.o: ..\EMWIN\STemWin\inc\GUI_ConfDefaults.h
@@ -68,7 +68,7 @@
 ..\obj\wificon.o: ..\EMWIN\STemWin\inc\GUI_Private.h
 ..\obj\wificon.o: ..\EMWIN\STemWin\inc\LCD_Protected.h
 ..\obj\wificon.o: ..\EMWIN\STemWin\inc\GUI_Debug.h
-..\obj\wificon.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\wificon.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stddef.h
 ..\obj\wificon.o: ..\EMWIN\STemWin\inc\SCROLLBAR.h
 ..\obj\wificon.o: ..\EMWIN\STemWin\inc\WIDGET.h
 ..\obj\wificon.o: ..\EMWIN\STemWin\inc\CALENDAR.h

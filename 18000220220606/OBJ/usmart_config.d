@@ -3,7 +3,7 @@
 ..\obj\usmart_config.o: ..\USMART\usmart_str.h
 ..\obj\usmart_config.o: ..\USER\stm32f4xx.h
 ..\obj\usmart_config.o: ..\CORE\core_cm4.h
-..\obj\usmart_config.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\usmart_config.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\usmart_config.o: ..\FWLIB\CMSIS\Include\core_cmInstr.h
 ..\obj\usmart_config.o: ..\FWLIB\CMSIS\Include\core_cmFunc.h
 ..\obj\usmart_config.o: ..\CORE\core_cm4_simd.h
@@ -39,7 +39,7 @@
 ..\obj\usmart_config.o: ..\SYSTEM\delay\delay.h
 ..\obj\usmart_config.o: ..\SYSTEM\sys\sys.h
 ..\obj\usmart_config.o: ..\SYSTEM\usart\usart.h
-..\obj\usmart_config.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\usmart_config.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\usmart_config.o: ..\HARDWARE\W25QXX\w25qxx.h
 ..\obj\usmart_config.o: ..\FATFS\exfuns\fattester.h
 ..\obj\usmart_config.o: ..\FATFS\src\ff.h

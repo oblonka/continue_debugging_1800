@@ -4,12 +4,12 @@
 ..\obj\ff.o: ..\FATFS\src\ffconf.h
 ..\obj\ff.o: ..\FATFS\src\diskio.h
 ..\obj\ff.o: ..\UCOSIII\uCOS_CONFIG\includes.h
-..\obj\ff.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdio.h
-..\obj\ff.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\string.h
-..\obj\ff.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\ctype.h
-..\obj\ff.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdlib.h
-..\obj\ff.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdarg.h
-..\obj\ff.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\math.h
+..\obj\ff.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\ff.o: D:\keilaz\ARM\ARMCC\Bin\..\include\string.h
+..\obj\ff.o: D:\keilaz\ARM\ARMCC\Bin\..\include\ctype.h
+..\obj\ff.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\ff.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdarg.h
+..\obj\ff.o: D:\keilaz\ARM\ARMCC\Bin\..\include\math.h
 ..\obj\ff.o: ..\UCOSIII\uCOS-III\Source\os.h
 ..\obj\ff.o: ..\UCOSIII\uCOS_CONFIG\os_cfg.h
 ..\obj\ff.o: ..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h
@@ -31,7 +31,7 @@
 ..\obj\ff.o: ..\FWLIB\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h
 ..\obj\ff.o: ..\USER\stm32f4xx.h
 ..\obj\ff.o: ..\CORE\core_cm4.h
-..\obj\ff.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\ff.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\ff.o: ..\FWLIB\CMSIS\Include\core_cmInstr.h
 ..\obj\ff.o: ..\FWLIB\CMSIS\Include\core_cmFunc.h
 ..\obj\ff.o: ..\CORE\core_cm4_simd.h

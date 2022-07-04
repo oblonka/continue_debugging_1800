@@ -2,7 +2,7 @@
 ..\obj\mytext.o: ..\SYSTEM\sys\sys.h
 ..\obj\mytext.o: ..\USER\stm32f4xx.h
 ..\obj\mytext.o: ..\CORE\core_cm4.h
-..\obj\mytext.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\mytext.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\mytext.o: ..\FWLIB\CMSIS\Include\core_cmInstr.h
 ..\obj\mytext.o: ..\FWLIB\CMSIS\Include\core_cmFunc.h
 ..\obj\mytext.o: ..\CORE\core_cm4_simd.h
@@ -38,8 +38,8 @@
 ..\obj\mytext.o: ..\TEXT\fontupd.h
 ..\obj\mytext.o: ..\HARDWARE\W25QXX\w25qxx.h
 ..\obj\mytext.o: ..\HARDWARE\LCD\ili93xx.h
-..\obj\mytext.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\mytext.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\mytext.o: ..\TEXT\mytext.h
-..\obj\mytext.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\string.h
+..\obj\mytext.o: D:\keilaz\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\mytext.o: ..\SYSTEM\usart\usart.h
-..\obj\mytext.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\mytext.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdio.h

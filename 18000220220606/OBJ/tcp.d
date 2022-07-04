@@ -2,7 +2,7 @@
 ..\obj\tcp.o: ..\HARDWARE\TCP\TCP.h
 ..\obj\tcp.o: ..\USER\stm32f4xx.h
 ..\obj\tcp.o: ..\CORE\core_cm4.h
-..\obj\tcp.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\tcp.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\tcp.o: ..\FWLIB\CMSIS\Include\core_cmInstr.h
 ..\obj\tcp.o: ..\FWLIB\CMSIS\Include\core_cmFunc.h
 ..\obj\tcp.o: ..\CORE\core_cm4_simd.h
@@ -36,9 +36,9 @@
 ..\obj\tcp.o: ..\FWLIB\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h
 ..\obj\tcp.o: ..\FWLIB\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h
 ..\obj\tcp.o: ..\SYSTEM\usart\usart.h
-..\obj\tcp.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\tcp.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\tcp.o: ..\SYSTEM\sys\sys.h
 ..\obj\tcp.o: ..\HARDWARE\WIFI\WIFI.h
-..\obj\tcp.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\string.h
-..\obj\tcp.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\tcp.o: D:\keilaz\ARM\ARMCC\Bin\..\include\string.h
+..\obj\tcp.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdbool.h
 ..\obj\tcp.o: ..\SYSTEM\delay\delay.h

@@ -1,11 +1,11 @@
 ..\obj\keypad.o: ..\HARDWARE\UIS\KeyPad.c
 ..\obj\keypad.o: ..\UCOSIII\uCOS_CONFIG\includes.h
-..\obj\keypad.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdio.h
-..\obj\keypad.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\string.h
-..\obj\keypad.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\ctype.h
-..\obj\keypad.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdlib.h
-..\obj\keypad.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdarg.h
-..\obj\keypad.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\math.h
+..\obj\keypad.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\keypad.o: D:\keilaz\ARM\ARMCC\Bin\..\include\string.h
+..\obj\keypad.o: D:\keilaz\ARM\ARMCC\Bin\..\include\ctype.h
+..\obj\keypad.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\keypad.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdarg.h
+..\obj\keypad.o: D:\keilaz\ARM\ARMCC\Bin\..\include\math.h
 ..\obj\keypad.o: ..\UCOSIII\uCOS-III\Source\os.h
 ..\obj\keypad.o: ..\UCOSIII\uCOS_CONFIG\os_cfg.h
 ..\obj\keypad.o: ..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h
@@ -27,7 +27,7 @@
 ..\obj\keypad.o: ..\FWLIB\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h
 ..\obj\keypad.o: ..\USER\stm32f4xx.h
 ..\obj\keypad.o: ..\CORE\core_cm4.h
-..\obj\keypad.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\keypad.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\keypad.o: ..\FWLIB\CMSIS\Include\core_cmInstr.h
 ..\obj\keypad.o: ..\FWLIB\CMSIS\Include\core_cmFunc.h
 ..\obj\keypad.o: ..\CORE\core_cm4_simd.h
@@ -90,7 +90,7 @@
 ..\obj\keypad.o: ..\EMWIN\STemWin\inc\GUI_Private.h
 ..\obj\keypad.o: ..\EMWIN\STemWin\inc\LCD_Protected.h
 ..\obj\keypad.o: ..\EMWIN\STemWin\inc\GUI_Debug.h
-..\obj\keypad.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\keypad.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stddef.h
 ..\obj\keypad.o: ..\EMWIN\STemWin\inc\SCROLLBAR.h
 ..\obj\keypad.o: ..\EMWIN\STemWin\inc\WIDGET.h
 ..\obj\keypad.o: ..\EMWIN\STemWin\inc\CALENDAR.h
@@ -127,7 +127,7 @@
 ..\obj\keypad.o: ..\HARDWARE\CO2\AIR.h
 ..\obj\keypad.o: ..\HARDWARE\SRAM\sram.h
 ..\obj\keypad.o: ..\HARDWARE\WIFI\WIFI.h
-..\obj\keypad.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\keypad.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdbool.h
 ..\obj\keypad.o: ..\HARDWARE\TCP\TCP.h
 ..\obj\keypad.o: ..\HARDWARE\MQTT\MQTT.h
 ..\obj\keypad.o: ..\HARDWARE\DMA\DMA.h

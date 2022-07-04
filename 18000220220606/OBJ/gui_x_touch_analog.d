@@ -10,7 +10,7 @@
 ..\obj\gui_x_touch_analog.o: ..\SYSTEM\sys\sys.h
 ..\obj\gui_x_touch_analog.o: ..\USER\stm32f4xx.h
 ..\obj\gui_x_touch_analog.o: ..\CORE\core_cm4.h
-..\obj\gui_x_touch_analog.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\gui_x_touch_analog.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\gui_x_touch_analog.o: ..\FWLIB\CMSIS\Include\core_cmInstr.h
 ..\obj\gui_x_touch_analog.o: ..\FWLIB\CMSIS\Include\core_cmFunc.h
 ..\obj\gui_x_touch_analog.o: ..\CORE\core_cm4_simd.h
@@ -43,13 +43,13 @@
 ..\obj\gui_x_touch_analog.o: ..\FWLIB\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h
 ..\obj\gui_x_touch_analog.o: ..\FWLIB\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h
 ..\obj\gui_x_touch_analog.o: ..\FWLIB\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h
-..\obj\gui_x_touch_analog.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\gui_x_touch_analog.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\gui_x_touch_analog.o: ..\SYSTEM\usart\usart.h
-..\obj\gui_x_touch_analog.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\gui_x_touch_analog.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\gui_x_touch_analog.o: ..\HARDWARE\TOUCH\cst148.h
-..\obj\gui_x_touch_analog.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\string.h
+..\obj\gui_x_touch_analog.o: D:\keilaz\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\gui_x_touch_analog.o: ..\SYSTEM\delay\delay.h
-..\obj\gui_x_touch_analog.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\math.h
+..\obj\gui_x_touch_analog.o: D:\keilaz\ARM\ARMCC\Bin\..\include\math.h
 ..\obj\gui_x_touch_analog.o: ..\HARDWARE\TOUCH\ctiic.h
 ..\obj\gui_x_touch_analog.o: ..\HARDWARE\TOUCH\cst148.h
 ..\obj\gui_x_touch_analog.o: ..\HARDWARE\BEEP\beep.h

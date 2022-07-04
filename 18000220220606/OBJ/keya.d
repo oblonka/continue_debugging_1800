@@ -3,7 +3,7 @@
 ..\obj\keya.o: ..\SYSTEM\sys\sys.h
 ..\obj\keya.o: ..\USER\stm32f4xx.h
 ..\obj\keya.o: ..\CORE\core_cm4.h
-..\obj\keya.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\keya.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\keya.o: ..\FWLIB\CMSIS\Include\core_cmInstr.h
 ..\obj\keya.o: ..\FWLIB\CMSIS\Include\core_cmFunc.h
 ..\obj\keya.o: ..\CORE\core_cm4_simd.h
@@ -36,7 +36,7 @@
 ..\obj\keya.o: ..\FWLIB\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h
 ..\obj\keya.o: ..\FWLIB\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h
 ..\obj\keya.o: ..\FWLIB\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h
-..\obj\keya.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\keya.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\keya.o: ..\EMWIN\STemWin\inc\GUI.h
 ..\obj\keya.o: ..\EMWIN\STemWin\inc\GUI_ConfDefaults.h
 ..\obj\keya.o: ..\EMWIN\STemWin\Config\GUIConf.h
@@ -58,7 +58,7 @@
 ..\obj\keya.o: ..\EMWIN\STemWin\inc\GUI_Private.h
 ..\obj\keya.o: ..\EMWIN\STemWin\inc\LCD_Protected.h
 ..\obj\keya.o: ..\EMWIN\STemWin\inc\GUI_Debug.h
-..\obj\keya.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\keya.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stddef.h
 ..\obj\keya.o: ..\EMWIN\STemWin\inc\SCROLLBAR.h
 ..\obj\keya.o: ..\EMWIN\STemWin\inc\WIDGET.h
 ..\obj\keya.o: ..\EMWIN\STemWin\inc\CALENDAR.h
@@ -86,5 +86,5 @@
 ..\obj\keya.o: ..\EMWIN\STemWin\inc\TEXT.h
 ..\obj\keya.o: ..\EMWIN\STemWin\inc\TREEVIEW.h
 ..\obj\keya.o: ..\EMWIN\STemWin\inc\KNOB.h
-..\obj\keya.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdio.h
-..\obj\keya.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\string.h
+..\obj\keya.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\keya.o: D:\keilaz\ARM\ARMCC\Bin\..\include\string.h

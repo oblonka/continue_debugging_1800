@@ -3,7 +3,7 @@
 ..\obj\keyaa.o: ..\SYSTEM\sys\sys.h
 ..\obj\keyaa.o: ..\USER\stm32f4xx.h
 ..\obj\keyaa.o: ..\CORE\core_cm4.h
-..\obj\keyaa.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\keyaa.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\keyaa.o: ..\FWLIB\CMSIS\Include\core_cmInstr.h
 ..\obj\keyaa.o: ..\FWLIB\CMSIS\Include\core_cmFunc.h
 ..\obj\keyaa.o: ..\CORE\core_cm4_simd.h
@@ -37,7 +37,7 @@
 ..\obj\keyaa.o: ..\FWLIB\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h
 ..\obj\keyaa.o: ..\FWLIB\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h
 ..\obj\keyaa.o: ..\HARDWARE\UIS\KEYa.h
-..\obj\keyaa.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\keyaa.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\keyaa.o: ..\EMWIN\STemWin\inc\GUI.h
 ..\obj\keyaa.o: ..\EMWIN\STemWin\inc\GUI_ConfDefaults.h
 ..\obj\keyaa.o: ..\EMWIN\STemWin\Config\GUIConf.h
@@ -48,8 +48,8 @@
 ..\obj\keyaa.o: ..\HARDWARE\UIS\KEYnum.h
 ..\obj\keyaa.o: ..\HARDWARE\WIFICON\WIFIcon.h
 ..\obj\keyaa.o: ..\EMWIN_DEMO\ButtonUse\ButtonUse.h
-..\obj\keyaa.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdio.h
-..\obj\keyaa.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\string.h
+..\obj\keyaa.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\keyaa.o: D:\keilaz\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\keyaa.o: ..\EMWIN\STemWin\inc\DIALOG.h
 ..\obj\keyaa.o: ..\EMWIN\STemWin\inc\WM.h
 ..\obj\keyaa.o: ..\EMWIN\STemWin\inc\WM_GUI.h
@@ -60,7 +60,7 @@
 ..\obj\keyaa.o: ..\EMWIN\STemWin\inc\GUI_Private.h
 ..\obj\keyaa.o: ..\EMWIN\STemWin\inc\LCD_Protected.h
 ..\obj\keyaa.o: ..\EMWIN\STemWin\inc\GUI_Debug.h
-..\obj\keyaa.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\keyaa.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stddef.h
 ..\obj\keyaa.o: ..\EMWIN\STemWin\inc\SCROLLBAR.h
 ..\obj\keyaa.o: ..\EMWIN\STemWin\inc\WIDGET.h
 ..\obj\keyaa.o: ..\EMWIN\STemWin\inc\CALENDAR.h

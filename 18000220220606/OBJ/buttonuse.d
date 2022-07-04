@@ -1,7 +1,7 @@
 ..\obj\buttonuse.o: ..\EMWIN_DEMO\ButtonUse\ButtonUse.c
 ..\obj\buttonuse.o: ..\USER\stm32f4xx.h
 ..\obj\buttonuse.o: ..\CORE\core_cm4.h
-..\obj\buttonuse.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\buttonuse.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\buttonuse.o: ..\FWLIB\CMSIS\Include\core_cmInstr.h
 ..\obj\buttonuse.o: ..\FWLIB\CMSIS\Include\core_cmFunc.h
 ..\obj\buttonuse.o: ..\CORE\core_cm4_simd.h
@@ -37,10 +37,10 @@
 ..\obj\buttonuse.o: ..\SYSTEM\sys\sys.h
 ..\obj\buttonuse.o: ..\SYSTEM\delay\delay.h
 ..\obj\buttonuse.o: ..\SYSTEM\usart\usart.h
-..\obj\buttonuse.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\buttonuse.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\buttonuse.o: ..\MALLOC\malloc.h
 ..\obj\buttonuse.o: ..\HARDWARE\LCD\ILI93xx.h
-..\obj\buttonuse.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\buttonuse.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\buttonuse.o: ..\HARDWARE\LED\led.h
 ..\obj\buttonuse.o: ..\HARDWARE\BEEP\beep.h
 ..\obj\buttonuse.o: ..\HARDWARE\TIMER\timer.h
@@ -58,10 +58,10 @@
 ..\obj\buttonuse.o: ..\FATFS\exfuns\exfuns.h
 ..\obj\buttonuse.o: ..\HARDWARE\W25QXX\w25qxx.h
 ..\obj\buttonuse.o: ..\UCOSIII\uCOS_CONFIG\includes.h
-..\obj\buttonuse.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\string.h
-..\obj\buttonuse.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\ctype.h
-..\obj\buttonuse.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdarg.h
-..\obj\buttonuse.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\math.h
+..\obj\buttonuse.o: D:\keilaz\ARM\ARMCC\Bin\..\include\string.h
+..\obj\buttonuse.o: D:\keilaz\ARM\ARMCC\Bin\..\include\ctype.h
+..\obj\buttonuse.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdarg.h
+..\obj\buttonuse.o: D:\keilaz\ARM\ARMCC\Bin\..\include\math.h
 ..\obj\buttonuse.o: ..\UCOSIII\uCOS-III\Source\os.h
 ..\obj\buttonuse.o: ..\UCOSIII\uCOS_CONFIG\os_cfg.h
 ..\obj\buttonuse.o: ..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h
@@ -90,7 +90,7 @@
 ..\obj\buttonuse.o: ..\EMWIN\STemWin\inc\GUI_Private.h
 ..\obj\buttonuse.o: ..\EMWIN\STemWin\inc\LCD_Protected.h
 ..\obj\buttonuse.o: ..\EMWIN\STemWin\inc\GUI_Debug.h
-..\obj\buttonuse.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\buttonuse.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stddef.h
 ..\obj\buttonuse.o: ..\EMWIN\STemWin\inc\SCROLLBAR.h
 ..\obj\buttonuse.o: ..\EMWIN\STemWin\inc\WIDGET.h
 ..\obj\buttonuse.o: ..\EMWIN\STemWin\inc\CALENDAR.h
@@ -127,6 +127,6 @@
 ..\obj\buttonuse.o: ..\HARDWARE\CO2\AIR.h
 ..\obj\buttonuse.o: ..\HARDWARE\SRAM\sram.h
 ..\obj\buttonuse.o: ..\HARDWARE\WIFI\WIFI.h
-..\obj\buttonuse.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\buttonuse.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdbool.h
 ..\obj\buttonuse.o: ..\HARDWARE\TCP\TCP.h
 ..\obj\buttonuse.o: ..\HARDWARE\MQTT\MQTT.h

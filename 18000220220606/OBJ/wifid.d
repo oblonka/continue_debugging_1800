@@ -3,7 +3,7 @@
 ..\obj\wifid.o: ..\SYSTEM\sys\sys.h
 ..\obj\wifid.o: ..\USER\stm32f4xx.h
 ..\obj\wifid.o: ..\CORE\core_cm4.h
-..\obj\wifid.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\wifid.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\wifid.o: ..\FWLIB\CMSIS\Include\core_cmInstr.h
 ..\obj\wifid.o: ..\FWLIB\CMSIS\Include\core_cmFunc.h
 ..\obj\wifid.o: ..\CORE\core_cm4_simd.h

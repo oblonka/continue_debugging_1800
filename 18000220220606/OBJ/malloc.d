@@ -3,7 +3,7 @@
 ..\obj\malloc.o: ..\SYSTEM\sys\sys.h
 ..\obj\malloc.o: ..\USER\stm32f4xx.h
 ..\obj\malloc.o: ..\CORE\core_cm4.h
-..\obj\malloc.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\malloc.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\malloc.o: ..\FWLIB\CMSIS\Include\core_cmInstr.h
 ..\obj\malloc.o: ..\FWLIB\CMSIS\Include\core_cmFunc.h
 ..\obj\malloc.o: ..\CORE\core_cm4_simd.h

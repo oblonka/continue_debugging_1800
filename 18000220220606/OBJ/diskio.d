@@ -6,7 +6,7 @@
 ..\obj\diskio.o: ..\HARDWARE\SDIO\sdio_sdcard.h
 ..\obj\diskio.o: ..\USER\stm32f4xx.h
 ..\obj\diskio.o: ..\CORE\core_cm4.h
-..\obj\diskio.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\diskio.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\diskio.o: ..\FWLIB\CMSIS\Include\core_cmInstr.h
 ..\obj\diskio.o: ..\FWLIB\CMSIS\Include\core_cmFunc.h
 ..\obj\diskio.o: ..\CORE\core_cm4_simd.h
@@ -42,12 +42,12 @@
 ..\obj\diskio.o: ..\HARDWARE\W25QXX\w25qxx.h
 ..\obj\diskio.o: ..\SYSTEM\sys\sys.h
 ..\obj\diskio.o: ..\UCOSIII\uCOS_CONFIG\includes.h
-..\obj\diskio.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdio.h
-..\obj\diskio.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\string.h
-..\obj\diskio.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\ctype.h
-..\obj\diskio.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdlib.h
-..\obj\diskio.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdarg.h
-..\obj\diskio.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\math.h
+..\obj\diskio.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\diskio.o: D:\keilaz\ARM\ARMCC\Bin\..\include\string.h
+..\obj\diskio.o: D:\keilaz\ARM\ARMCC\Bin\..\include\ctype.h
+..\obj\diskio.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\diskio.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdarg.h
+..\obj\diskio.o: D:\keilaz\ARM\ARMCC\Bin\..\include\math.h
 ..\obj\diskio.o: ..\UCOSIII\uCOS-III\Source\os.h
 ..\obj\diskio.o: ..\UCOSIII\uCOS_CONFIG\os_cfg.h
 ..\obj\diskio.o: ..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h

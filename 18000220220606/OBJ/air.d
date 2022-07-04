@@ -1,11 +1,11 @@
 ..\obj\air.o: ..\HARDWARE\CO2\AIR.c
 ..\obj\air.o: ..\UCOSIII\uCOS_CONFIG\includes.h
-..\obj\air.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdio.h
-..\obj\air.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\string.h
-..\obj\air.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\ctype.h
-..\obj\air.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdlib.h
-..\obj\air.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdarg.h
-..\obj\air.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\math.h
+..\obj\air.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\air.o: D:\keilaz\ARM\ARMCC\Bin\..\include\string.h
+..\obj\air.o: D:\keilaz\ARM\ARMCC\Bin\..\include\ctype.h
+..\obj\air.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\air.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdarg.h
+..\obj\air.o: D:\keilaz\ARM\ARMCC\Bin\..\include\math.h
 ..\obj\air.o: ..\UCOSIII\uCOS-III\Source\os.h
 ..\obj\air.o: ..\UCOSIII\uCOS_CONFIG\os_cfg.h
 ..\obj\air.o: ..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h
@@ -27,7 +27,7 @@
 ..\obj\air.o: ..\FWLIB\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h
 ..\obj\air.o: ..\USER\stm32f4xx.h
 ..\obj\air.o: ..\CORE\core_cm4.h
-..\obj\air.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\air.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\air.o: ..\FWLIB\CMSIS\Include\core_cmInstr.h
 ..\obj\air.o: ..\FWLIB\CMSIS\Include\core_cmFunc.h
 ..\obj\air.o: ..\CORE\core_cm4_simd.h
@@ -66,7 +66,7 @@
 ..\obj\air.o: ..\HARDWARE\LCD\ILI93xx.h
 ..\obj\air.o: ..\HARDWARE\CO2\AIR.h
 ..\obj\air.o: ..\HARDWARE\WIFI\WIFI.h
-..\obj\air.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\air.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdbool.h
 ..\obj\air.o: ..\HARDWARE\UIS\KEYa.h
 ..\obj\air.o: ..\EMWIN\STemWin\inc\GUI.h
 ..\obj\air.o: ..\EMWIN\STemWin\inc\GUI_ConfDefaults.h

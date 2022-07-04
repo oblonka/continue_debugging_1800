@@ -449,17 +449,17 @@ ARM Macro Assembler    Page 7
   282 00000034         
   283 00000034                 END
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp.sp --apcs=
-interwork --depend=..\obj\cpu_a.d -o..\obj\cpu_a.o -IM:\keilazsa\Keil\STM32F4xx
-_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IM:\keilazsa\ARM\CMSIS\I
-nclude -IM:\keilazsa\Keil\STM32F4xx_DFP\2.15.0\Device\Include --predefine="__UV
-ISION_VERSION SETA 532" --predefine="STM32F407xx SETA 1" --list=..\obj\cpu_a.ls
+interwork --depend=..\obj\cpu_a.d -o..\obj\cpu_a.o -ID:\keilaz\Keil\STM32F4xx_D
+FP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include -ID:\keilaz\ARM\CMSIS\Inclu
+de -ID:\keilaz\Keil\STM32F4xx_DFP\2.15.0\Device\Include --predefine="__UVISION_
+VERSION SETA 532" --predefine="STM32F407xx SETA 1" --list=..\obj\cpu_a.lst ..\U
 
 
 
 ARM Macro Assembler    Page 8 
 
 
-t ..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu_a.asm
+COSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu_a.asm
 
 
 

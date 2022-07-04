@@ -3,7 +3,7 @@
 ..\obj\ctiic.o: ..\SYSTEM\sys\sys.h
 ..\obj\ctiic.o: ..\USER\stm32f4xx.h
 ..\obj\ctiic.o: ..\CORE\core_cm4.h
-..\obj\ctiic.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\ctiic.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\ctiic.o: ..\FWLIB\CMSIS\Include\core_cmInstr.h
 ..\obj\ctiic.o: ..\FWLIB\CMSIS\Include\core_cmFunc.h
 ..\obj\ctiic.o: ..\CORE\core_cm4_simd.h
@@ -37,10 +37,10 @@
 ..\obj\ctiic.o: ..\FWLIB\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h
 ..\obj\ctiic.o: ..\FWLIB\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h
 ..\obj\ctiic.o: ..\HARDWARE\TOUCH\cst148.h
-..\obj\ctiic.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\string.h
+..\obj\ctiic.o: D:\keilaz\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\ctiic.o: ..\SYSTEM\delay\delay.h
-..\obj\ctiic.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdlib.h
-..\obj\ctiic.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\math.h
-..\obj\ctiic.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\ctiic.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\ctiic.o: D:\keilaz\ARM\ARMCC\Bin\..\include\math.h
+..\obj\ctiic.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\ctiic.o: ..\HARDWARE\TOUCH\ctiic.h
 ..\obj\ctiic.o: ..\HARDWARE\LCD\ILI93XX.h

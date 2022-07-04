@@ -3,7 +3,7 @@
 ..\obj\htiic.o: ..\SYSTEM\sys\sys.h
 ..\obj\htiic.o: ..\USER\stm32f4xx.h
 ..\obj\htiic.o: ..\CORE\core_cm4.h
-..\obj\htiic.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\htiic.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\htiic.o: ..\FWLIB\CMSIS\Include\core_cmInstr.h
 ..\obj\htiic.o: ..\FWLIB\CMSIS\Include\core_cmFunc.h
 ..\obj\htiic.o: ..\CORE\core_cm4_simd.h
@@ -38,4 +38,4 @@
 ..\obj\htiic.o: ..\FWLIB\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h
 ..\obj\htiic.o: ..\SYSTEM\delay\delay.h
 ..\obj\htiic.o: ..\SYSTEM\usart\usart.h
-..\obj\htiic.o: M:\keilazsa\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\htiic.o: D:\keilaz\ARM\ARMCC\Bin\..\include\stdio.h
