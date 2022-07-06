@@ -5,6 +5,10 @@
 #include "includes.h"	
 #include "sys.h"  
 
+#include "WIFIcon.h"
+
+
+
 struct STRUCT_USART_Fram ESP32S_Fram_Record_Struct = { 0 };  //定义了一个数据帧结构体
 
 
@@ -603,6 +607,10 @@ bool ESP32S_JoinAP_connect_list_parse( char *list_parse_cmd,  u32 time)
 //bool ESP32S_JoinAP_connect_list_parse()
 		{
 			char i = 0;
+			
+			
+			WM_HWIN      hItem;
+			
 				/*
 				AT+CWLAP
 				
@@ -754,6 +762,17 @@ int main()
 							 { //2022.06
 								 ssid_list_ptr = strstr(str_buffer+list_offset,"+CWLAP");
 								 //ptr = strstr(ESP32S_Fram_Record_Struct.Data_RX_BUF+list_offset,"+CWLAP");
+								 //if(s[0]!='\0')则字符串是空串   前提是 字符串的判断
+								 
+								 
+								 hItem = WM_GetDialogItem(WIFI_hWin, ID_BUTTON_0 + i);   
+								 BUTTON_SetText(hItem,ssid);
+								 i++;
+								 if(i>9)
+									 i = 0;
+								 
+								 
+								 
 								 
 								 if(!ssid_list_ptr)break;
 								 sscanf(ssid_list_ptr,"+CWLAP:(%d,\"%[^\"]\",%d,\"%[^\"]\",%d",&ecn, ssid, &rssi, mac,&channel);
@@ -768,9 +787,9 @@ int main()
 													 list_offset++; 
 												 }
 									
-delay_ms(3000);
+//delay_ms(3000);
 
-										i++;		 
+											 
 								}	
 			return 0;		 		 	
 }
@@ -843,11 +862,11 @@ bool ESP32S_GET_RealTime_parse(char *cmd,u32 time)
 				uint32_t offset_RealTime_parse=0;//2022.05
 													                
 			  /* &ecn, ssid, &rssi, mac */
-			  char     *SNTP_week;     //SNTP_week     字符串  mac地址
-			  char    *SNTP_month;     //SNTP_month    字符串    名称
-			  int32_t    SNTP_day;     //&SNTP_day
-			  int32_t   SNTP_time;     //&SNTP_time    数字，信号强度  //2022.05
-				uint32_t  SNTP_year;     //&SNTP_year    数字，类型      //2022.05
+			  char     *SNTP_week;     //SNTP_week     字符串  mac地址 //2022.06
+			  char    *SNTP_month;     //SNTP_month    字符串  名称  //2022.06
+			  int32_t    SNTP_day;     //&SNTP_day                     //2022.06
+			  int32_t   SNTP_time;     //&SNTP_time    数字，  信号强度  //2022.05
+				uint32_t  SNTP_year;     //&SNTP_year    数字，  类型      //2022.05
 				
 				char Extract_realtime[256];
 				

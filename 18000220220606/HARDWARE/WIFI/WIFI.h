@@ -6,6 +6,30 @@
 #include <string.h>
 #include <stdbool.h>
 
+
+#include "DIALOG.h"//2022.06
+#include "WM.h"    //2022.06
+
+
+#define ID_WINDOW_0        (GUI_ID_USER + 0x0B)
+#define ID_BUTTON_0        (GUI_ID_USER + 0x0C)
+#define ID_BUTTON_1        (GUI_ID_USER + 0x0D)
+#define ID_BUTTON_2        (GUI_ID_USER + 0x0E)
+#define ID_BUTTON_3        (GUI_ID_USER + 0x0F)
+#define ID_BUTTON_4        (GUI_ID_USER + 0x10)
+#define ID_BUTTON_5        (GUI_ID_USER + 0x11)
+#define ID_BUTTON_6        (GUI_ID_USER + 0x12)
+#define ID_BUTTON_7        (GUI_ID_USER + 0x13)
+#define ID_BUTTON_8        (GUI_ID_USER + 0x14)
+#define ID_BUTTON_9        (GUI_ID_USER + 0x15)
+#define ID_BUTTON_10        (GUI_ID_USER + 0x16)
+#define ID_BUTTON_11        (GUI_ID_USER + 0x17)
+#define ID_BUTTON_12        (GUI_ID_USER + 0x18)
+#define ID_IMAGE_0        (GUI_ID_USER + 0x19)
+
+
+
+
 typedef uint32_t u32;
 typedef uint16_t u16;
 typedef uint8_t u8; 
@@ -21,6 +45,10 @@ extern char SSID_str[10][64];//序号和内容
 #if defined ( __CC_ARM   )
 #pragma anon_unions
 #endif
+
+
+extern WM_HWIN WIFI_hWin;
+
 
 
 //ESP32S模式选择

@@ -77,7 +77,18 @@ extern u16 wifi_ap_flag;
 extern U8  Key_Data[26];
 
 
-extern uchar top_button_flag;
+extern uchar top_button_flag;       //
+extern uchar wificon_to_keypad_flag;//wifi列表切换到按键的键盘的标志位
+
+
+extern u8 wificon_to_mainui_flag;//wifi的列表的界面的跳转到主界面
+
+extern u8 wificon_to_up_flag;    //wifi的列表的界面显示不变，内容 向上翻页
+
+extern u8  wificon_to_down_flag;  //wifi的列表的界面的显示不变，内容 向下翻页
+
+
+
 
 
 /************************************************
@@ -238,7 +249,7 @@ int main(void)
 	OS_ERR err;
 	CPU_SR_ALLOC();
 	
-	uchar init_time[6]={22,6,20,14,14,06};//初始化时间参数   手动配置时间的设置
+	uchar init_time[6]={22,7,5,11,12,06};//初始化时间参数   手动配置时间的设置
 	
 	
 	
@@ -631,6 +642,32 @@ password  的解析是    emwin     edit输入的字符串        Edit_buff
 	 //	MainTask_WIFIcon();
 	 //	
 	 //	}
+		
+		//wifi列表的10个按键触摸进入键盘界面，提取wifi名，然后进入键盘的输入界面
+		if(wificon_to_keypad_flag==1)
+			{
+			 MainTask_allin();//获取的ssid名称指针送入连接wifi 的函数接口中   ssid[]   
+			}
+		
+			
+			if(wificon_to_mainui_flag==1)//wifi的列表的界面的跳转到主界面
+				{
+				ButtonUse_Demo();
+				}
+			
+				
+		/*
+		if(wificon_to_up_flag==1) //wifi的列表的界面显示不变，内容 向上翻页
+				{
+				}
+			
+		if(wificon_to_down_flag==1)//wifi的列表的界面的显示不变，内容 向下翻页
+				{
+				}
+		*/	
+			
+				
+		
 		
 		
 		
@@ -1028,10 +1065,25 @@ void WIFI_task(void *p_arg)
 		
 		
 		//下面是测试解析WIFI列表的函数，解析出的SSID打印输出到串口显示。
-		//delay_ms(2000);
-		//ESP32S_JoinAP_connect_list_parse("AT+CWLAP",500);//解析SSID的命令的函数,不定长的数据解析。
-	  //delay_ms(2000);
+		delay_ms(2000);
+		ESP32S_JoinAP_connect_list_parse("AT+CWLAP",500);//解析SSID的命令的函数,不定长的数据解析。
+	  delay_ms(2000);
 		//解析WIFI列表的函数
+		
+		
+		
+		//解析wifi 自动获取时间函数，  解析出来的时间的格式是
+		  /*
+			 [16:01:55.398]收←◆AT+CIPSNTPTIME?
+				+CIPSNTPTIME:Sat May 28 16:01:58 2022
+				OK
+			 */
+		
+		
+		
+		
+		
+		
 		
 		
 		//U8  Key_Data[26] = { 0 };
@@ -1046,6 +1098,9 @@ if(wifi_ap_flag ==1)
 		
 */	
 
+		
+		
+		
 		
 	
 /*

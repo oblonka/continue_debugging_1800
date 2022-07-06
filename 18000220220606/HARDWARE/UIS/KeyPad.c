@@ -72,7 +72,7 @@
 
 
 
-u16 wifi_ap_flag=0;
+u16 wifi_ap_flag=0;//输入密码之后的按键的按钮，直接进行mqtt的连接的函数
 
 
 
