@@ -5,3 +5,4 @@ debug1800_logging
 
 2.2022.07.04
 
+3.all in one.
